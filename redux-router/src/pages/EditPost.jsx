@@ -27,7 +27,7 @@ const EditPost = () => {
   const formik = useFormik({
     initialValues: {
       title:  record?.title || '',
-      description:  record?.description || '',
+      description:  record?.description ||\ '',
     },
     validationSchema: postSchema,
     enableReinitialize: true,
